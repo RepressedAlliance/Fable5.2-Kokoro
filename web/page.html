@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ココロ pages</title>
+<style>
+  html, body { margin: 0; background: #181c2c; color: #ece2c4; font: 14px/1.5 "Microsoft YaHei", sans-serif; }
+  canvas { display: block; width: 100vw; height: auto; }
+  #hud { position: fixed; left: 12px; bottom: 10px; background: rgba(24, 28, 44, .8); padding: 4px 10px; border-radius: 6px; white-space: pre; }
+</style>
+<script type="importmap">{ "imports": { "three": "./vendor/three.module.js" } }</script>
+</head>
+<body>
+<canvas id="c" width="1920" height="1080"></canvas>
+<div id="hud">loading…</div>
+<script type="module">
+// A designed 2D passage: web/pages/NAME.js exports name, start, duration, prepare(), draw(c, t).
+//   ?page=NAME&t=1,5.5        stills to <frames>/NAME_tX_XX.png        (<frames>: ./frames or $KOKORO_FRAMES, see serve.py)
+//   ?page=NAME&capture=1      every frame (24 fps) to <frames>/NAME/f00000.png   (&from= &to= in seconds)
+//   ?page=NAME&play=1         with the song (your own file: input/kokoro.wav, see input/README.md)
+// Fonts: assets/fonts/ (python tools/fetch_fonts.py).
+const q = new URLSearchParams(location.search);
+const hud = document.getElementById('hud'), canvas = document.getElementById('c'), c = canvas.getContext('2d');
+const FONTS = [['Mincho X', 'ShipporiMinchoB1-ExtraBold.ttf'], ['Mincho', 'ZenOldMincho-Medium.ttf'], ['Mincho K', 'ZenOldMincho-Black.ttf'],
+  ['Gothic X', 'ZenKakuGothicNew-Black.ttf'], ['Gothic', 'ZenKakuGothicNew-Medium.ttf'], ['Dela', 'DelaGothicOne-Regular.ttf'],
+  ['Dot', 'DotGothic16-Regular.ttf'], ['Mono', 'IBMPlexMono-Regular.ttf'], ['Shoulders', 'BigShouldersDisplay.ttf', { weight: '100 900' }],
+  ['Klee', 'KleeOne-SemiBold.ttf']];
+await Promise.all(FONTS.map(async ([n, f, d]) => { const ff = new FontFace(n, `url(/p/assets/fonts/${f})`, d || {}); await ff.load(); document.fonts.add(ff); }));
+const page = await import(`./pages/${q.get('page')}.js?v=${Date.now()}`);
+if (page.prepare) await page.prepare();
+const post = name => new Promise(done => canvas.toBlob(async b => {
+  for (let k = 0; ; k++) {
+    try { const r = await fetch(`/save?name=${name}`, { method: 'POST', body: b }); if (r.ok) break; } catch (e) { /* again */ }
+    if (k > 240) throw new Error('cannot save ' + name);          // two minutes: several renders may be writing at once
+    await new Promise(r => setTimeout(r, 500));
+  }
+  done();
+}, 'image/png'));
+const render = t => { c.setTransform(1, 0, 0, 1, 0, 0); c.globalAlpha = 1; c.globalCompositeOperation = 'source-over'; page.draw(c, t); };
+window.film = { done: false };
+if (q.get('capture')) {
+  const fps = 24, from = +(q.get('from') || 0), to = +(q.get('to') || page.duration);
+  const n0 = Math.round(from * fps), n1 = Math.round(to * fps);
+  for (let n = n0; n < n1; n++) {
+    render(n / fps);
+    await post(`${page.name}/f${String(n).padStart(5, '0')}.png`);
+    if (n % 24 === 0) hud.textContent = `${page.name}: ${n - n0} / ${n1 - n0}`;
+  }
+  hud.textContent = `${page.name}: ${n1 - n0} frames saved`;
+  window.film.done = true;
+} else if (q.get('play')) {
+  const audio = new Audio('/p/input/kokoro.wav');
+  const t0 = +(q.get('from') || 0);
+  let started = false;
+  hud.textContent = '点一下画面开始播放';
+  canvas.addEventListener('click', () => { audio.currentTime = page.start + t0; audio.play(); started = true; });
+  const loop = () => {
+    const t = started ? audio.currentTime - page.start : t0;
+    if (started && t >= page.duration) { audio.pause(); audio.currentTime = page.start + t0; audio.play(); }
+    render(Math.max(0, Math.min(page.duration - 1e-3, t)));
+    if (started) hud.textContent = `${page.name}  ${t.toFixed(2)} s`;
+    requestAnimationFrame(loop);
+  };
+  loop();
+} else {
+  const times = (q.get('t') || '0').split(',').map(Number);
+  for (const t of times) { render(t); await post(`${page.name}_t${t.toFixed(2).replace('.', '_')}.png`); }
+  hud.textContent = `${page.name}: ${times.length} stills saved`;
+  window.film.done = true;
+}
+</script>
+</body>
+</html>

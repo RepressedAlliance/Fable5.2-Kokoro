@@ -1,0 +1,30 @@
+{
+ "note": "The shape of web/data/lyrics.json (made by src/apply_lyrics.py from lyrics_timing.json and your own input/lyrics_lines.txt). The text here is a placeholder, not the song's lyrics. One entry per sung phrase; every character has the second it lands on screen (t) and, when it is sung by itself, the karaoke file's own time (file). A full-width space or a bracket has a t but no file: it arrives with its neighbour.",
+ "lines": [
+  {
+   "t0": 35.694,
+   "end": 39.113,
+   "text": "あいうえお",
+   "chars": [
+    {"c": "あ", "t": 35.694, "file": 35.698},
+    {"c": "い", "t": 35.913, "file": 35.948},
+    {"c": "う", "t": 36.352, "file": 36.408},
+    {"c": "え", "t": 36.771, "file": 36.818},
+    {"c": "お", "t": 37.205, "file": 37.258}
+   ]
+  },
+  {
+   "t0": 42.61,
+   "end": 46.2,
+   "text": "かき　「く」",
+   "chars": [
+    {"c": "か", "t": 42.61, "file": 42.62},
+    {"c": "き", "t": 43.05, "file": 43.07},
+    {"c": "　", "t": 44.10},
+    {"c": "「", "t": 44.10},
+    {"c": "く", "t": 44.10, "file": 44.14},
+    {"c": "」", "t": 44.22}
+   ]
+  }
+ ]
+}

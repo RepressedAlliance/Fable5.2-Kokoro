@@ -1,0 +1,32 @@
+# Python / Node
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+
+# The song, its lyrics and timing references are copyrighted or third-party: bring your own (input/README.md)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ass
+*.lrc
+/input/*
+!/input/README.md
+# the page data made from your own lyrics (src/apply_lyrics.py); the times-only file is committed
+/web/data/lyrics.json
+
+# Everything the pipeline generates: frames, films, review sheets, scratch work
+/frames/
+/out/
+/work/
+*.mp4
+
+# Fonts are downloaded by tools/fetch_fonts.py (SIL OFL, from google/fonts)
+/assets/fonts/
+
+# the maintainer's pre-release notes
+/RELEASE_CHECKLIST.md
+
+# Raw drawings and candidates are not published (only the baked cards the film uses)
+/art/v2/raw/

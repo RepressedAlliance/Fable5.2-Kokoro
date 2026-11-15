@@ -1,0 +1,19 @@
+# Python 3.12 (the versions of the production environment; not tested on every platform)
+#   py -3.12 -m venv .venv
+#   .venv\Scripts\python -m pip install -r requirements.txt
+# Also needed, installed separately: Node.js 22+ and Google Chrome (rendering pages), FFmpeg (assembling, previews),
+# PowerShell 7 (the .ps1 tools), the Codex CLI (only to generate or review drawings: tools/gen.ps1, tools/codex_review.ps1).
+
+# baking cards, cutting the magenta, aligning loop frames, contact sheets
+numpy==2.5.4
+opencv-python==5.0.0.93
+pillow==13.0.0
+
+# timing the lyrics on the voice (src/lyric_timing.py), the audio chart (tools/analyze_audio.py)
+librosa==1.0.0
+soundfile==0.14.0
+scipy==1.18.1
+matplotlib==3.11.2
+
+# separating the voice for src/lyric_timing.py, if you re-time the lyrics yourself (CPU build is enough):
+#   pip install demucs  ->  demucs -n htdemucs --two-stems vocals input/kokoro.wav
