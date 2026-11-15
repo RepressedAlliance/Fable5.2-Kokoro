@@ -1,0 +1,883 @@
+{
+ "tw": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "tw0": "tw0_2",
+   "tw_c1": "tw_c1_1",
+   "tw_fl": "tw_fl_1",
+   "tw_off": "tw_off_1",
+   "tw_p1": "tw_p1_1",
+   "tw_p2": "tw_p2_1",
+   "tw_c1p1": "tw_c1p1_1",
+   "tw_p2c1": "tw_p2c1_1"
+  },
+  "paper_min": 3000
+ },
+ "tf": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "tf0": "tf0_1",
+   "tf_01": "tf_01_1",
+   "tf_02": "tf_02_1",
+   "tf_03": "tf_03_1",
+   "tf_34": "tf_34_1",
+   "tf_45": "tf_45_1",
+   "tf_b": "tf_b_1",
+   "tf_done": "tf_done_1",
+   "tf_offer": "tf_offer_1",
+   "tf_pour": "tf_pour_1",
+   "tf_put": "tf_put_1",
+   "tf_see": "tf_see_1"
+  },
+  "paper_min": 3000
+ },
+ "tq": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "tq0": "tq0_2",
+   "tq_12": "tq_12_1",
+   "tq_23": "tq_23_1",
+   "tq_down": "tq_down_1",
+   "tq_look": "tq_look_1",
+   "tq_up": "tq_up_1",
+   "tq_tray": "tq_tray_1"
+  },
+  "rescale_feet": [
+   "tq_12",
+   "tq_23"
+  ],
+  "paper_min": 3000
+ },
+ "tb": {
+  "canon": "rin_back",
+  "height": 1.52,
+  "items": {
+   "tb0": "tb0_1",
+   "tb_c1": "tb_c1_1",
+   "tb_c2": "tb_c2_1",
+   "tb_p1": "tb_p1_1",
+   "tb_p2": "tb_p2_1",
+   "tb_c1p1": "tb_c1p1_1",
+   "tb_p1c2": "tb_p1c2_1",
+   "tb_c2p2": "tb_c2p2_1",
+   "tb_p2c1": "tb_p2c1_1"
+  },
+  "refit": [
+   "tb_c1",
+   "tb_c2",
+   "tb_c1p1",
+   "tb_p1c2",
+   "tb_c2p2",
+   "tb_p2c1"
+  ],
+  "paper_min": 3000
+ },
+ "wl": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "wl0": "wl0_1",
+   "wl_01": "wl_01_1",
+   "wl_12": "wl_12_1",
+   "wl_23": "wl_23_1",
+   "wl_r1": "wl_r1_1",
+   "wl_r2": "wl_r2_1",
+   "wl_r3": "wl_r3_1",
+   "wl_w1": "wl_w1_1",
+   "wl_w2": "wl_w2_1",
+   "wl_w3": "wl_w3_1"
+  }
+ },
+ "ca": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "ca0": "g8r10_ca0_a_n_cv",
+   "ca_01": "ca_01_1_cv",
+   "ca_read2": "ca_read2_1_cv",
+   "ca_stop": "ca_stop_1_cv",
+   "ca_stopo": "g8r10_ca_stopo_a_n_cv",
+   "ca_take": "g8r10_ca_take_e_n"
+  },
+  "paper_min": 1000
+ },
+ "cb": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "cb0": "cb0_2w",
+   "cb_12": "cb_12_1_w",
+   "cb_23": "cb_23_1_w",
+   "cb_down": "cb_down_1_w",
+   "cb_out": "cb_out_v5d_fit",
+   "cb_up": "cb_up_1_w",
+   "cb_w1": "cb_w1_v5b_fit",
+   "cb_w2": "cb_w2_v5a_fit",
+   "cb_out_w1": "cb_out_v5d_fit",
+   "cb_out_w2": "w1_cb_out_w2_a_al",
+   "cb_out_w3": "w1_cb_out_w3_b_al",
+   "cb_out_w4": "w1_cb_out_w4_b_al",
+   "cb_out_w5": "w1_cb_out_w5_b_al",
+   "cb_out_w6": "w1_cb_out_w6_b_al",
+   "cb_out_w7": "w1_cb_out_w7_a_al",
+   "cb_out_w8": "w1_cb_out_w8_b_al"
+  },
+  "paper_min": 3000
+ },
+ "cc": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "cc0": "cc0_1",
+   "cc_12": "cc_12_1",
+   "cc_2": "cc_2_1",
+   "cc_3": "cc_3_1",
+   "cc_34": "cc_34_1",
+   "cc_4": "a3x_r2fx_cc_4_v8a_fit",
+   "cc_b": "cc_b_1"
+  },
+  "scale": "hair_h",
+  "refit": [
+   "cc_b",
+   "cc_2",
+   "cc_12"
+  ],
+  "paper_min": 3000
+ },
+ "cd": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "cd0": "cd0_v5a_fit",
+   "cd_a": "cd_a_v5a_fit",
+   "cd_b": "cd_b_v5f_fit",
+   "cd_w1": "cd_w1_v5c_fit",
+   "cd_w2": "cd_w2_v5b_fit",
+   "cd_a_w1": "cd_a_v5a_fit",
+   "cd_a_w2": "w1_cd_a_w2_a_al",
+   "cd_a_w3": "w1_cd_a_w3_a_al",
+   "cd_a_w4": "w1_cd_a_w4_b_al",
+   "cd_a_w5": "w1_cd_a_w5_b_al",
+   "cd_a_w6": "w1_cd_a_w6_c_al",
+   "cd_a_w7": "w1_cd_a_w7_a_al",
+   "cd_a_w8": "w1_cd_a_w8_a_al",
+   "cd0_w1": "cd0_v5a_fit",
+   "cd0_w2": "w1_cd0_w2_a_al",
+   "cd0_w3": "w1_cd0_w3_a_al",
+   "cd0_w4": "w1_cd0_w4_b_al",
+   "cd0_w5": "w1_cd0_w5_b_al",
+   "cd0_w6": "w1_cd0_w6_b_al",
+   "cd0_w7": "w1_cd0_w7_a_al",
+   "cd0_w8": "w1_cd0_w8_a_al"
+  },
+  "paper_min": 3000
+ },
+ "up": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "up0": "up0_v5l_fit",
+   "up_a": "up_a_v5a_fit",
+   "up_b": "a11_up_b5_v5b_fit",
+   "up_w1": "up_w1_v5c_fit",
+   "up_w2": "up_w2_v5d_fit",
+   "up0_w1": "up0_v5l_fit",
+   "up0_w2": "w1_up0_w2_a_al",
+   "up0_w3": "w1_up0_w3_a_al",
+   "up0_w4": "w1_up0_w4_a_al",
+   "up0_w5": "w1_up0_w5_c_al",
+   "up0_w6": "w1_up0_w6_b_al",
+   "up0_w7": "w1_up0_w7_d_al",
+   "up0_w8": "w1_up0_w8_a_al",
+   "up_a_w1": "up_a_v5a_fit",
+   "up_a_w2": "w1_up_a_w2_a_al",
+   "up_a_w3": "w1_up_a_w3_a_al",
+   "up_a_w4": "w1_up_a_w4_b_al",
+   "up_a_w5": "w1_up_a_w5_b_al",
+   "up_a_w6": "w1_up_a_w6_d_al",
+   "up_a_w7": "w1_up_a_w7_a_al",
+   "up_a_w8": "w1_up_a_w8_a_al"
+  },
+  "paper_min": 3000
+ },
+ "rn": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "rn0": "rn0_7",
+   "rn_c1": "rn_c1_1",
+   "rn_d1": "rn_d1_1",
+   "rn_p1": "rn_p1_1",
+   "rn_f1": "rn_f1_1",
+   "rn_c2": "rn_c2_1",
+   "rn_d2": "rn_d2_1",
+   "rn_p2": "rn_p2_1",
+   "rn_f2": "rn_f2_1",
+   "rn_s1": "rn_s1_1",
+   "rn_s2": "rn_s2_1",
+   "rn_s3b": "rn_s3b_1",
+   "rn_s12": "rn_s12_1",
+   "rn_s23": "rn_s23_1"
+  }
+ },
+ "pg": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "pg0": "pg0_1_w",
+   "pg_1": "g8r10_pg_1_b_n",
+   "pg_2": "g8r10_pg_2_a_n",
+   "pg_3": "g8r10_pg_3_a_n"
+  },
+  "keep_print": true,
+  "paper_min": 700
+ },
+ "mq": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "mq0": "mq0_2",
+   "mq_b": "mq_b_1"
+  },
+  "scale": "hair_h"
+ },
+ "ms": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "ms0": "ms0_1",
+   "ms_b": "ms_b_1"
+  },
+  "scale": "hair_h"
+ },
+ "bd": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "bd0": "bd0_2",
+   "bd_01": "bd_01_1",
+   "bd_12": "bd_12_1",
+   "bd_a": "bd_a_1",
+   "bd_c": "bd_c_1"
+  }
+ },
+ "hi": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "hi0": "hi0_2",
+   "hi_b": "hi_b_1",
+   "hi_l": "hi_l_v4b",
+   "hi_d": "hi_d_v4b"
+  }
+ },
+ "dr": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "items": {
+   "dr0": "dr0_3",
+   "dr_12": "dr_12_1",
+   "dr_b": "dr_b_1",
+   "dr_end": "dr_end_1",
+   "dr_smile": "dr_smile_1",
+   "dr_up": "dr_up_1",
+   "dr_wipe": "dr_wipe_1"
+  },
+  "scale_item": "dr_end"
+ },
+ "si": {
+  "canon": "rin_side_r",
+  "height": 1.52,
+  "items": {
+   "si0": "si0_1",
+   "si_cl": "si_cl_1",
+   "si_half": "si_half_1",
+   "si_st": "si_st_1"
+  },
+  "scale_item": "si_st",
+  "drop_brown": true
+ },
+ "la": {
+  "height": 1.79,
+  "items": {
+   "la0": "la0_1",
+   "la_1": "la_1_1",
+   "la_12": "la_12_1",
+   "la_2": "la_2_1",
+   "la_23": "la_23_1",
+   "la_3": "la_3_1",
+   "la_34": "la_34_1",
+   "la_3b": "la_3b_1",
+   "la_4": "la_4_1",
+   "la_45": "la_45_1",
+   "la_5": "la_5_1",
+   "la_6": "la_6_1",
+   "la_b": "la_b_1"
+  },
+  "mpp": 0.0008666666666666667
+ },
+ "ls": {
+  "height": 1.79,
+  "keep_all": true,
+  "items": {
+   "ls_tea": "g6_ls_tea_b_r_dc",
+   "ls_look": "g6_ls_m_a_r_dc"
+  },
+  "mpp": 0.0009665427509293681
+ },
+ "me": {
+  "height": 1.79,
+  "items": {
+   "me0": "g6_me0f_b_r_dc",
+   "me_30": "g6_me_30_c_r_dc",
+   "me_45": "g6_me_45_c_r_dc",
+   "me_65": "g6_me_65_c_r_dc",
+   "me_78": "g6_me_78_c_r_dc",
+   "me_gone": "g3_me_gone_a_n_dc",
+   "me0w": "g6_me0w_c_r_dc",
+   "me_30w": "me_30w_1",
+   "me_45w": "g6_me_45w_c_r_dc",
+   "me_65w": "g6_me_65w_c_r_dc",
+   "me_78w": "g6_me_78w_c_r_dc",
+   "me0wb": "g6_me0wb_e_r_dc"
+  },
+  "mpp": 0.0009665427509293681
+ },
+ "ki": {
+  "canon": "len_age08",
+  "height": 1.25,
+  "items": {
+   "ki0": "ki0_1",
+   "ki_b": "ki_b_1",
+   "ki_up": "ki_up_1"
+  }
+ },
+ "ol": {
+  "mpp": 0.00045,
+  "items": {
+   "ol0": "ol0_1",
+   "ol_1": "ol_1_1",
+   "ol_12": "ol_12_1",
+   "ol_2": "ol_2_1",
+   "ol_3": "ol_3_1"
+  }
+ },
+ "du": {
+  "canon": "rin_q34",
+  "height": 1.52,
+  "items": {
+   "du0": "du0_2",
+   "du_01": "du_01_1",
+   "du_1": "du_1_1",
+   "du_12": "du_12_1",
+   "du_2": "du_2_1",
+   "du_23": "du_23_1",
+   "du_2b": "du_2b_1",
+   "du_3": "du_3_1"
+  },
+  "hair": [
+   0.5,
+   1.0
+  ],
+  "keep_all": true
+ },
+ "tr": {
+  "canon": "rin_back",
+  "height": 1.52,
+  "items": {
+   "tr0": "g8r10_tr0b_a_n",
+   "tr_2": "g8r10_tr_2_a_n"
+  }
+ },
+ "op": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "scale": "hair_h",
+  "items": {
+   "op0": "cc0_1",
+   "op_c": "op_c_pick",
+   "op_h": "op_h_pick",
+   "op_o": "op_o_pick"
+  }
+ },
+ "bw": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "op",
+  "keep_all": true,
+  "items": {
+   "bw_o": "op_o_pick",
+   "bw_n": "bw_n_v4b_fit",
+   "bw_0": "bw_0_v4a_fit",
+   "bw_1": "bw_1_v4c_fit"
+  }
+ },
+ "en": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "op",
+  "items": {
+   "en_n": "a2x_en_n_v5a_fit",
+   "en_s": "a3x_r2fx_en_s_v8b_fit",
+   "en_o": "a2x_en_o_v5a_fit",
+   "en_c": "a2x_en_c_v5d_fit",
+   "en_nc": "a3x_r2fx_en_nc_v8b_fit",
+   "en_h": "en_h_v4a_fit",
+   "en_m1": "a2x_en_m1_v5a_fit",
+   "en_m2": "a3x_r2fx_en_m2_v8b_fit",
+   "en_s2": "a3x_r2fx_en_s2_v8a_fit"
+  },
+  "paper_min": 3000
+ },
+ "endt": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "op",
+  "frame_of": "en",
+  "items": {
+   "end_t0": "endt_t0",
+   "end_t1": "endt_t1",
+   "end_t2": "endt_t2",
+   "end_t3": "endt_t3",
+   "end_t4": "endt_t4",
+   "end_t4b": "endt_t4b",
+   "end_t5": "endt_t5",
+   "end_t5b": "endt_t5b",
+   "end_t6": "endt_t6",
+   "end_t7": "endt_t7"
+  },
+  "paper_min": 3000
+ },
+ "mf": {
+  "height": 1.79,
+  "items": {
+   "mf0": "g3_mf0_a_n_dc",
+   "mf_30": "g3_mf_30_b_n_dc",
+   "mf_45": "g3_mf_45_a_n_dc",
+   "mf_65": "g3_mf_65_b_n_dc",
+   "mf_78": "g3_mf_78_a_n_dc",
+   "mf_gone": "g3_mf_gone_a_n_dc"
+  },
+  "mpp": 0.0009665427509293681
+ },
+ "lb": {
+  "height": 1.79,
+  "keep_all": true,
+  "items": {
+   "lb0": "g2_lb0_m1_r_dc",
+   "lb_1": "g6_lb_1_a_r_dc",
+   "lb_1s": "g6_lb_1s_a_r_dc",
+   "lb_2": "g6_lb_2_a_r_dc",
+   "lb_3": "g6_lb_3_b_r_dc",
+   "lb_4": "g6_lb_4_a_r_dc",
+   "lb_5": "g6_lb_5_a_r_dc",
+   "lb_look": "g6_lb_look_a_r_dc",
+   "lb_crumple": "g6_lb_crumple_a_r_dc",
+   "lb_hold": "g7_lb_hold_c_r_dc"
+  },
+  "mpp": 0.0009665427509293681
+ },
+ "bx": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "op",
+  "keep_all": true,
+  "items": {
+   "bx_o": "op_o_pick",
+   "bx_n": "bw_n_v4b_fit",
+   "bx_0": "bw_0_v5s",
+   "bx_01": "bw_01_v5s",
+   "bx_1": "bw_1_v5s",
+   "bx_nc": "a16_bw_n_v4b_fit_c",
+   "bx_0c": "a16_bw_0_v5s_c"
+  },
+  "paper_min": 3000
+ },
+ "sv": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "sv0": "sv0_v5d_fit"
+  }
+ },
+ "rm": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "rm0": "rn0_7",
+   "rm_c1": "a3x_r2rt_c1_v7a_fit",
+   "rm_d1": "a3x_r2rt_d1_v7b_fit",
+   "rm_p1": "a3x_r2rt_p1_v7a_fit",
+   "rm_f1": "a3x_r2rt_f1_v7b_fit",
+   "rm_c2": "a3x_r2rt_c2_v7b_fit",
+   "rm_d2": "a3x_r2rt_d2_v7a_fit",
+   "rm_p2": "a3x_r2rt_p2_v7a_fit",
+   "rm_f2": "a3x_r2rt_f2_v7b_fit",
+   "rm_s1": "rn_s1_1",
+   "rm_s2": "rn_s2_1",
+   "rm_s3b": "rn_s3b_1",
+   "rm_s12": "rn_s12_1",
+   "rm_s23": "rn_s23_1"
+  },
+  "paper_min": 3000
+ },
+ "oe": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "op",
+  "items": {
+   "oe_o": "op_o_pick",
+   "oe_l": "oe_l_v5g_fit_cm",
+   "oe_d": "oe_d_v5e_fit_cm1"
+  }
+ },
+ "tk": {
+  "canon": "rin_back",
+  "height": 1.52,
+  "items": {
+   "tk0": "tb0_1",
+   "tk_l": "tk_l_v5h_fit",
+   "tk_r": "tk_r_v5f_fit",
+   "tk_l2": "tk_l2_v5f_fit",
+   "tk_h": "a3x_r2fx_tk_h_v8a_fit"
+  },
+  "paper_min": 3000
+ },
+ "th": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "th0": "g8r10_th0_b_n",
+   "th_p": "g8r10_th_p_c_n",
+   "th_1": "g8r10_th_1_a_n",
+   "th_2": "th_2_v5b_fit_pw",
+   "th_step": "g8r10_th_step_f_n",
+   "th_kneel": "g8r10_th_kneel_b_n"
+  },
+  "mpp_of": "pg",
+  "paper_min": 3000
+ },
+ "ts": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "ts0": "g4_ts0_r1a_fit",
+   "ts_put": "g4_ts_put_r1a_fit",
+   "ts_up": "g4_ts_up_r1a_fit",
+   "ts_stool": "g4_ts_stool_r1a_fit",
+   "ts_look": "g4_ts_look_r1a_fit"
+  },
+  "mpp_of": "tw",
+  "keep_all": true,
+  "paper_min": 3000
+ },
+ "wm": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "items": {
+   "wm0": "wm_master_v5",
+   "wm_broom": "wm_broom_a14b_dn",
+   "wm_blanket": "wm_blanket_v5a_fit",
+   "wm_sing": "wm_sing_v5b_fit",
+   "wm_pot": "wm_pot_v5a_fit",
+   "wm_low": "wm_low_a14a_fit",
+   "wm_off": "wm_off_a14b_fit"
+  },
+  "mpp_of": "tw",
+  "paper_min": 3000
+ },
+ "epw": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp": 0.00028,
+  "keep_all": true,
+  "items": {
+   "ep_write": "ep_write_v5a"
+  }
+ },
+ "ep": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "tw",
+  "keep_all": true,
+  "items": {
+   "ep_tea": "g9b_ep_tea_t1c_fit",
+   "ep_sweep": "ep_sweep3_v5b_hf",
+   "ep_sweep2": "ep_sweep4_v5b_hf",
+   "ep_find": "a3x_ep_find_v5c_fit",
+   "ep_sit": "g4_ep_sit_r1b_fit",
+   "ep_sing": "g4_ep_sing_r1a_fit",
+   "ep_lean": "g4_ep_lean_r1a_fit",
+   "ep_sweep_v1": "ep_sweep_v5e_s"
+  },
+  "paper_min": 4000
+ },
+ "epl": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "ep",
+  "keep_all": true,
+  "items": {
+   "ep_lean1": "g4_ep_lean1_r1b_fit",
+   "ep_lean2": "g5_ep_lean2_r1b_fit"
+  },
+  "paper_min": 3000
+ },
+ "epr": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "ep",
+  "keep_all": true,
+  "items": {
+   "ep_sit_r": "g9_ep_sit_r_m1a_fit",
+   "ep_sing_r": "g9_ep_sing_r_r1b_fit",
+   "ep_lean1_r": "g9_ep_lean1_r_r2b_fit",
+   "ep_lean2_r": "g9_ep_lean2_r_r1a_fit"
+  },
+  "paper_min": 3000
+ },
+ "jb": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0017966903073286051,
+  "items": {
+   "jb_1": "g3_jb_1_d_n_dc",
+   "jb_2": "g3_jb_2_e_n_dc"
+  }
+ },
+ "jt": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0017882352941176471,
+  "items": {
+   "jt_1": "g3_jt_1_a_n_dc",
+   "jt_2": "g3_jt_2_a_n_dc"
+  }
+ },
+ "hc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0003,
+  "items": {
+   "hc_tea": "a12_hc1_v5b",
+   "hc_last": "a12_hc2_v5b"
+  }
+ },
+ "jf": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0017861339600470036,
+  "items": {
+   "jf_1": "g3_jf_1_b_n_dc",
+   "jf_2": "g3_jf_2_c_n_dc"
+  }
+ },
+ "kn": {
+  "canon": "rin_back",
+  "height": 1.52,
+  "mpp_of": "tr",
+  "items": {
+   "kn_open": "kn_open2_a14c_pl",
+   "kn_reach": "kn_reach_a14b_bw"
+  },
+  "paper_min": 3000
+ },
+ "fs": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "cb",
+  "items": {
+   "fs_1": "a11_fs_1_v5c_fit",
+   "fs_2": "g8r10_fs_2b_c_n",
+   "fs_3": "g8r10_fs_3b_b_n"
+  },
+  "paper_min": 300
+ },
+ "epw2": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp": 0.00028,
+  "keep_all": true,
+  "items": {
+   "ep_write2a": "ep_write3a_v5a",
+   "ep_write2b": "g7_epw2b_a",
+   "ep_write2c": "ep_write3c_v5a_sh"
+  }
+ },
+ "fh": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "ep",
+  "keep_all": true,
+  "items": {
+   "fh_1": "a3x_r2fx_fh_1_v8a_fit",
+   "fh_2": "a3x_r2fx_fh_2_v8b_fit"
+  },
+  "paper_min": 3000
+ },
+ "rf": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp": 0.00036961498439125914,
+  "items": {
+   "rm_face": "a2x_rm_face_v5a_fit"
+  },
+  "paper_min": 1000000
+ },
+ "jbc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "scale": "hair_h",
+  "hair": [
+   0.62,
+   1.0
+  ],
+  "keep_all": true,
+  "items": {
+   "jbc_1": "g1r9_jbc_1_a_dc"
+  }
+ },
+ "jfc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "scale": "hair_h",
+  "hair": [
+   0.65,
+   1.0
+  ],
+  "keep_all": true,
+  "items": {
+   "jfc_1": "a12_jfc_v5b_k"
+  }
+ },
+ "kv": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0007161458333333333,
+  "items": {
+   "kv_tie": "g7_kv_tie_a_t",
+   "kv_done": "g1r9_kv_done_a_n_t",
+   "kv_e1": "g1r9_kv_e1_a_n_t",
+   "kv_e2": "g1r9_kv_e2_a_n_t",
+   "kv_joy": "g1r9_kv_joy_a_n_t",
+   "kv_grin": "g1r9_kv_grin_a_n_t",
+   "kv_mimic": "g1r9_kv_mimic_a_n_t",
+   "kv_pat": "g1r9_kv_pat_a_n_t"
+  },
+  "paper_min": 3000
+ },
+ "kv_v1": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "keep_all": true,
+  "mpp": 0.0005503251018011755,
+  "items": {
+   "kv_sad": "a15_kv_sad_v5m",
+   "kv_30": "a15_t_a30_v5a",
+   "kv_45": "a15_t_a45_v5b",
+   "kv_65": "a15_t_a65_v5b",
+   "kv_78": "a15_t_a78_v5a",
+   "kv_gone": "a15_kv_gone_v5m",
+   "kv_wave": "a1x_kv_wave_v5m",
+   "kv_laugh": "a1x_kv_laugh_v5m"
+  }
+ },
+ "epc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "ep",
+  "keep_all": true,
+  "items": {
+   "ep_carry": "g5_ep_carry_r1a_fit"
+  },
+  "paper_min": 3000
+ },
+ "ept": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "mpp_of": "ep",
+  "keep_all": true,
+  "items": {
+   "ep_tea2": "g9b_ep_tea2_s_t2c_fit"
+  },
+  "paper_min": 4000
+ },
+ "jdc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "scale": "hair_h",
+  "hair": [
+   0.55,
+   1.0
+  ],
+  "keep_all": true,
+  "items": {
+   "jdc_1": "g1r9_jdc_1_c_dc",
+   "jdc_2": "g1r9_jdc_2_a"
+  }
+ },
+ "jsc": {
+  "canon": "rin_side",
+  "height": 1.52,
+  "scale": "hair_h",
+  "hair": [
+   0.6,
+   1.0
+  ],
+  "keep_all": true,
+  "items": {
+   "jsc_1": "g1r9_jsc_1_a"
+  }
+ },
+ "lv": {
+  "height": 1.79,
+  "keep_all": true,
+  "mpp": 0.0011838992547268815,
+  "items": {
+   "lv_eat": "g2_lv_eat_a_r_dc",
+   "lv_read": "g6_lv_read_a_r_dc",
+   "lv_cup": "g6_lv_cup_a_r_dc",
+   "lv_sleep": "g6_lv_sleep_a_r_dc"
+  }
+ },
+ "lad": {
+  "height": 1.79,
+  "keep_all": true,
+  "items": {
+   "lad0": "g2_lad0_a_r_dc",
+   "lad_1": "g6_lad_1_a_r_dc",
+   "lad_6": "g6_lad_6_a_r_dc",
+   "lad_b": "g6_lad_b_a_r_dc",
+   "lad_34": "g6_lad_34_b_r_dc",
+   "lad_4": "g6_lad_4_a_r_dc",
+   "lad_45": "g6_lad_45_a_r_dc",
+   "lad_5": "g6_lad_5_a_r_dc"
+  },
+  "mpp": 0.0009665427509293681
+ },
+ "ov": {
+  "canon": "rin_front",
+  "height": 1.52,
+  "mpp_of": "up",
+  "items": {
+   "ov_hold": "w3_ov_hold_a_ov",
+   "ov_burst_w1": "w3_ov_burst_w1_f_ov",
+   "ov_burst_w2": "w3_ov_burst_w3_e_ax_ov",
+   "ov_burst_w3": "w3_ov_burst_w3_f_ax_ov",
+   "ov_burst_w4": "w3_ov_burst_w4_c_ax_ov",
+   "ov_burst_w5": "w3_ov_burst_w7_c_ax_ov",
+   "ov_burst_w6": "w3_ov_burst_w6_a_ax_ov",
+   "ov_burst_w7": "w3_ov_burst_w7_d_ax_ov",
+   "ov_burst_w8": "w3_ov_burst_w8_c_pre2_ax_ov"
+  },
+  "paper_min": 3000
+ }
+}
