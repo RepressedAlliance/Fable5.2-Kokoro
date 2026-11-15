@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/cover.jpg" alt="Kokoro final cover" width="100%">
+  <img src="docs/images/cover-smile.jpg" alt="Kokoro final cover" width="100%">
 </p>
 
 <h1 align="center">Fable5.2-Kokoro</h1>

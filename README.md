@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/cover.jpg" alt="《ココロ》定稿封面" width="100%">
+  <img src="docs/images/cover-smile.jpg" alt="《ココロ》定稿封面" width="100%">
 </p>
 
 <h1 align="center">Fable5.2-Kokoro</h1>
