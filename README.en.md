@@ -9,7 +9,7 @@
   He spent his life trying to make a heart, and every record was stamped 失敗 (failure). 180,000 days later, she stamped it 成功 (success).
 </p>
 
-<p align="center"><a href="README.md">中文</a> · English</p>
+<p align="center"><a href="README.md">简体中文</a> · English · <a href="README.ja.md">日本語</a></p>
 
 <p align="center">
   <img alt="Code MIT" src="https://img.shields.io/badge/code-MIT-1b3f86">
@@ -51,7 +51,7 @@
   </tr>
 </table>
 
-**▶ Watch the full PV:** bilibili <!-- BILIBILI_URL --> · YouTube <!-- YOUTUBE_URL --> · 4:40 · 1920 × 1080 · 24 fps
+**Watch the full PV** · [Bilibili](https://www.bilibili.com/video/BV1f3sn6QEc5/) · [YouTube](https://youtu.be/O-Xq1JkeVvg) · 4:40 · 1920 × 1080 · 24 fps
 
 The animations are silent excerpts of the film.
 
@@ -65,18 +65,17 @@ The whole film is that design record: every frame is first a page of it - bluepr
 
 ## Where to start if you want to learn from it
 
-| You want to know | Start here (in Chinese) |
+| You want to know | Start here |
 |---|---|
-| How the walk, the run, the hair in the wind and the final tear were drawn and played | [Continuous motion](docs/连贯动作.md) → [wind-loop prompts](tools/w1_wind_prompts.py) → [`windFrame()`](web/pages/kit.js) |
-| How each character of the lyrics lands exactly when it is sung; the layouts | [Lyric motion](docs/歌词动效.md) → [`column()` / `row()` in kit.js](web/pages/kit.js) |
-| Why hundreds of character drawings stay on model and almost never go wrong | [Character art that does not go wrong](docs/人物图怎么不出错.md) → [Prompts](docs/提示词.md) → [model sheets](art/canon/) |
-| Writing 心 with her voice; photographs pouring out of her chest | [Writing 心 with her voice](docs/歌声写成心.md) · [Memories overflowing](docs/记忆涌出.md) |
-| Putting swaps and cuts on the beat, and checking it | [On the beat](docs/按拍对点.md) |
-| Install, render a frame, assemble the film | [Production pipeline](docs/制作流程.md) |
-| The mistakes we made | [Pitfalls](docs/踩过的坑.md) |
-| What is and is not in this repository | [NOTICE](NOTICE.md) · [input/README](input/README.md) |
+| How the walk, run, wind and final tear were drawn | [Moving drawings](docs/guide.en.md#moving-drawings) · [wind-loop prompts](tools/w1_wind_prompts.py) |
+| How each lyric character lands when sung | [Beat and lyric timing](docs/guide.en.md#beat-and-lyric-timing) · [`column()` / `row()`](web/pages/kit.js) |
+| Keeping characters and props consistent | [Reference sheets and finished cards](docs/guide.en.md#reference-sheets-and-finished-cards) · [reference art](art/canon/) |
+| Writing 心 and sending photographs around her | [Two finale effects](docs/guide.en.md#two-finale-effects) |
+| Installation, input formats, capture and assembly | [Environment and rendering](docs/guide.en.md#environment-and-rendering) |
+| What changed after viewing and testing | [Review and pitfalls](docs/guide.en.md#review-and-pitfalls) |
+| Included material and licencing | [Included material and licences](docs/guide.en.md#included-material-and-licences) · [NOTICE](NOTICE.md#english-summary) |
 
-The documentation is written in Chinese; the code comments are in English. Index: [docs/README.md](docs/README.md).
+The [English making-of guide](docs/guide.en.md) brings the techniques and commands together. The [original production articles](docs/README.md) are available in Chinese.
 
 ## Stills
 
@@ -127,7 +126,7 @@ The documentation is written in Chinese; the code comments are in English. Index
 
 **To study the methods, just read the docs and the code: nothing needs installing.**
 
-To render: Windows, Python 3.12, Node.js 22+, Chrome; FFmpeg to assemble; the Codex CLI to generate or review drawings.
+The original setup used Windows, Python 3.12, Node.js 24, Chrome and FFmpeg. Use the Codex CLI for new drawings or image review.
 
 ```powershell
 git clone https://github.com/RepressedAlliance/Fable5.2-Kokoro.git
@@ -137,7 +136,7 @@ py -3.12 -m venv .venv
 .venv\Scripts\python tools\fetch_fonts.py
 ```
 
-Bring your own song and lyrics ([input/README.md](input/README.md)). With `input/lyrics_lines.txt` in place:
+Bring your own song and lyrics in the [required formats](docs/guide.en.md#environment-and-rendering). With `input/lyrics_lines.txt` in place:
 
 ```powershell
 python src\apply_lyrics.py                       # lyrics + timing -> web/data/lyrics.json
@@ -145,13 +144,13 @@ python web\serve.py                              # in another terminal, keep it 
 node tools\render.mjs "page=know&t=2"            # -> frames/know_t2_00.png
 ```
 
-Whole pages, assembly and checks: [Production pipeline](docs/制作流程.md). This project is made for one song: the pages, beat numbers and card names belong to "Kokoro". **Another song needs its own beat grid, lyric timing and page design**; what carries over is the methods and the tools.
+See the [English pipeline](docs/guide.en.md#environment-and-rendering) for full page capture and assembly. The page names, frame ranges and cards were designed for “Kokoro”. Another song needs its own beat grid, lyric timing and page design.
 
 ## Layout
 
 ```text
 Fable5.2-Kokoro/
-├── README.md / README.en.md     the film and where to start
+├── README*.md                   project home in Chinese, English and Japanese
 ├── NOTICE.md  LICENSE           rights and licences
 ├── requirements.txt             Python dependencies
 ├── web/

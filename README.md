@@ -9,7 +9,7 @@
   他做了一辈子「心」，每一份记录都盖着「失敗」。十八万天以后，她替他盖上了「成功」。
 </p>
 
-<p align="center">中文 · <a href="README.en.md">English</a></p>
+<p align="center">简体中文 · <a href="README.en.md">English</a> · <a href="README.ja.md">日本語</a></p>
 
 <p align="center">
   <img alt="Code MIT" src="https://img.shields.io/badge/code-MIT-1b3f86">
@@ -51,7 +51,7 @@
   </tr>
 </table>
 
-**▶ 看完整 PV：** 哔哩哔哩 <!-- BILIBILI_URL --> · YouTube <!-- YOUTUBE_URL --> · 4 分 40 秒 · 1920 × 1080 · 24 fps
+**看完整 PV** · [哔哩哔哩](https://www.bilibili.com/video/BV1f3sn6QEc5/) · [YouTube](https://youtu.be/O-Xq1JkeVvg) · 4 分 40 秒 · 1920 × 1080 · 24 fps
 
 动图是成片的无声片段。
 
@@ -171,7 +171,7 @@ node tools\render.mjs "page=know&t=2"            # -> frames/know_t2_00.png
 
 ```text
 Fable5.2-Kokoro/
-├── README.md / README.en.md     成片展示与学习入口
+├── README*.md                    中、英、日三语入口
 ├── NOTICE.md  LICENSE           权利说明与许可
 ├── requirements.txt             Python 依赖
 ├── web/
